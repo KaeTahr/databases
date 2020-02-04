@@ -1404,3 +1404,4 @@ insert into receta (idReceta, idConsulta, idMedicamento) values (4, 5, 129);
 insert into receta (idReceta, idConsulta, idMedicamento) values (5, 7, 49);
 insert into receta (idReceta, idConsulta, idMedicamento) values (6, 8, 3);
 insert into receta (idReceta, idConsulta, idMedicamento) values (7, 9, 1);
+insert into receta (idReceta, idConsulta, idMedicamento) values (8, 4, 1);
