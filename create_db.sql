@@ -41,7 +41,7 @@ PRIMARY KEY (idPrueba)
 
 CREATE TABLE Pregunta (
 idPregunta INT NOT NULL,
-texto VARCHAR(200),
+texto VARCHAR(2000),
 idPrueba INT NOT NULL,
 PRIMARY KEY (idPregunta),
 FOREIGN KEY(idPrueba) REFERENCES Prueba(idPrueba)
