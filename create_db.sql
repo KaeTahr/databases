@@ -15,7 +15,7 @@ PRIMARY KEY(idPaciente)
 
 CREATE TABLE Doctor (
 idDoctor INT NOT NULL,
-peea VARCHAR(8) NOT NULL,
+cedula INT NOT NULL,
 FName VARCHAR(32),
 LName VARCHAR(32),
 PRIMARY KEY(idDoctor)
@@ -27,6 +27,7 @@ idPaciente INT NOT NULL,
 idDoctor INT NOT NULL,
 fecha DATE NOT NULL,
 costo INT NOT NULL,
+peea VARCHAR(200) NOT NULL,
 PRIMARY KEY (idConsulta),
 FOREIGN KEY(idPaciente) REFERENCES PACIENTE (idPaciente),
 FOREIGN KEY(idDoctor) REFERENCES doctor (idDoctor)

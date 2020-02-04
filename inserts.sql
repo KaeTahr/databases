@@ -9,34 +9,34 @@ INSERT INTO PACIENTE (idPaciente, FName, Lname, Sexo,Email, Fechanacimiento) VAL
 
 -- doctores
 
-INSERT INTO DOCTOR (idDoctor, peea, FName, LName) VALUES (1, 16227469, 'Gerardo', 'Ayala');
-INSERT INTO DOCTOR (idDoctor, peea, FName, LName) VALUES (2, 21794582, 'Miguel', 'Bocard');
-INSERT INTO DOCTOR (idDoctor, peea, FName, LName) VALUES (3, 35614827, 'Saul', 'Pinto');
+INSERT INTO DOCTOR (idDoctor, cedula, FName, LName) VALUES (1, 16227469, 'Gerardo', 'Ayala');
+INSERT INTO DOCTOR (idDoctor, cedula, FName, LName) VALUES (2, 21794582, 'Miguel', 'Bocard');
+INSERT INTO DOCTOR (idDoctor, cedula, FName, LName) VALUES (3, 35614827, 'Saul', 'Pinto');
 
 -- consultas
 
-INSERT INTO Consulta (idConsulta, idPaciente, idDoctor, fecha, costo) VALUES (1, 1, 2, '2020-01-25', 500) ;
-INSERT INTO Consulta (idConsulta, idPaciente, idDoctor, fecha, costo) VALUES (2, 1, 1,'2020-02-02', 500) ;
-INSERT INTO Consulta (idConsulta, idPaciente, idDoctor, fecha, costo) VALUES (3, 1, 2, '2020-02-21', 650) ;
-INSERT INTO Consulta (idConsulta, idPaciente, idDoctor, fecha, costo) VALUES (4, 1, 3, '2020-03-05', 750) ;
-INSERT INTO Consulta (idConsulta, idPaciente, idDoctor, fecha, costo) VALUES (5, 1, 1,'2020-03-24', 860) ;
-INSERT INTO Consulta (idConsulta, idPaciente, idDoctor,  fecha, costo) VALUES (6, 2, 2, '2020-01-15', 500) ;
-INSERT INTO Consulta (idConsulta, idPaciente, idDoctor, fecha, costo) VALUES (7, 2, 3,'2020-01-30', 500) ;
-INSERT INTO Consulta (idConsulta, idPaciente, idDoctor, fecha, costo) VALUES (8, 2, 1,'2020-02-14', 700) ;
-INSERT INTO Consulta (idConsulta, idPaciente, idDoctor, fecha, costo) VALUES (9, 2, 2,'2020-03-30', 820) ;
-INSERT INTO Consulta (idConsulta, idPaciente, idDoctor, fecha, costo) VALUES (10, 2, 2,'2020-03-30', 820) ;
+INSERT INTO Consulta (idConsulta, idPaciente, idDoctor, fecha, costo, peea) VALUES (1, 1, 2, '2020-01-25', 500, 'depresion') ;
+INSERT INTO Consulta (idConsulta, idPaciente, idDoctor, fecha, costo, peea) VALUES (2, 1, 1,'2020-02-02', 500, 'problemas de relacion') ;
+INSERT INTO Consulta (idConsulta, idPaciente, idDoctor, fecha, costo, peea) VALUES (3, 1, 2, '2020-02-21', 650, 'falta de motivacion') ;
+INSERT INTO Consulta (idConsulta, idPaciente, idDoctor, fecha, costo, peea) VALUES (4, 1, 3, '2020-03-05', 750, 'obseciones') ;
+INSERT INTO Consulta (idConsulta, idPaciente, idDoctor, fecha, costo, peea) VALUES (5, 1, 1,'2020-03-24', 860, 'malos pensamientos') ;
+INSERT INTO Consulta (idConsulta, idPaciente, idDoctor,  fecha, costo, peea) VALUES (6, 2, 2, '2020-01-15', 500, 'depresion') ;
+INSERT INTO Consulta (idConsulta, idPaciente, idDoctor, fecha, costo, peea) VALUES (7, 2, 3,'2020-01-30', 500, 'insomnia') ;
+INSERT INTO Consulta (idConsulta, idPaciente, idDoctor, fecha, costo, peea) VALUES (8, 2, 1,'2020-02-14', 700, 'falta de motivacion') ;
+INSERT INTO Consulta (idConsulta, idPaciente, idDoctor, fecha, costo, peea) VALUES (9, 2, 2,'2020-03-30', 820, 'depresion') ;
+INSERT INTO Consulta (idConsulta, idPaciente, idDoctor, fecha, costo, peea) VALUES (10, 2, 2,'2020-03-30', 820, 'depresion') ;
 
-INSERT INTO Consulta (idConsulta, idPaciente, idDoctor, fecha, costo) VALUES (11, 3, 1,'2020-01-14', 500) ;
-INSERT INTO Consulta (idConsulta, idPaciente, idDoctor, fecha, costo) VALUES (12, 3, 2,'2020-02-03', 500) ;
-INSERT INTO Consulta (idConsulta, idPaciente, idDoctor, fecha, costo) VALUES (13, 3, 1,'2020-02-23', 600) ;
-INSERT INTO Consulta (idConsulta, idPaciente, idDoctor, fecha, costo) VALUES (14, 3, 1,'2020-03-01', 750) ;
-INSERT INTO Consulta (idConsulta, idPaciente, idDoctor, fecha, costo) VALUES (15, 3, 1,'2020-03-17', 800) ;
+INSERT INTO Consulta (idConsulta, idPaciente, idDoctor, fecha, costo, peea) VALUES (11, 3, 1,'2020-01-14', 500, 'problemas de relacion') ;
+INSERT INTO Consulta (idConsulta, idPaciente, idDoctor, fecha, costo, peea) VALUES (12, 3, 2,'2020-02-03', 500, 'malos pensamientos') ;
+INSERT INTO Consulta (idConsulta, idPaciente, idDoctor, fecha, costo, peea) VALUES (13, 3, 1,'2020-02-23', 600, 'depresion') ;
+INSERT INTO Consulta (idConsulta, idPaciente, idDoctor, fecha, costo, peea) VALUES (14, 3, 1,'2020-03-01', 750, 'malos pensamientos') ;
+INSERT INTO Consulta (idConsulta, idPaciente, idDoctor, fecha, costo, peea) VALUES (15, 3, 1,'2020-03-17', 800, 'insomnia') ;
 
-INSERT INTO Consulta (idConsulta, idPaciente, idDoctor, fecha, costo) VALUES (16, 4, 2,'2020-02-10', 500) ;
-INSERT INTO Consulta (idConsulta, idPaciente, idDoctor, fecha, costo) VALUES (17, 4, 1,'2020-03-02', 500) ;
-INSERT INTO Consulta (idConsulta, idPaciente, idDoctor, fecha, costo) VALUES (18, 4, 2,'2020-03-21', 670) ;
-INSERT INTO Consulta (idConsulta, idPaciente, idDoctor, fecha, costo) VALUES (19, 4, 2,'2020-04-01', 700) ;
-INSERT INTO Consulta (idConsulta, idPaciente, idDoctor, fecha, costo) VALUES (20, 2, 2,'2020-03-30', 820) ;
+INSERT INTO Consulta (idConsulta, idPaciente, idDoctor, fecha, costo, peea) VALUES (16, 4, 2,'2020-02-10', 500, 'insomnia') ;
+INSERT INTO Consulta (idConsulta, idPaciente, idDoctor, fecha, costo, peea) VALUES (17, 4, 1,'2020-03-02', 500, 'insomnia') ;
+INSERT INTO Consulta (idConsulta, idPaciente, idDoctor, fecha, costo, peea) VALUES (18, 4, 2,'2020-03-21', 670, 'depresion') ;
+INSERT INTO Consulta (idConsulta, idPaciente, idDoctor, fecha, costo, peea) VALUES (19, 4, 2,'2020-04-01', 700, 'insomnia') ;
+INSERT INTO Consulta (idConsulta, idPaciente, idDoctor, fecha, costo, peea) VALUES (20, 2, 2,'2020-03-30', 820, 'depresion') ;
 
 -- insertar pruebas
 INSERT INTO Prueba (idPrueba, nombre) VALUES (1, 'Examen de depresión de Hamilton');
