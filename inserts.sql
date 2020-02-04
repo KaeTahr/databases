@@ -1219,14 +1219,10 @@ INSERT INTO Diagnostico_consulta VALUES
 (4, 190),
 (5, 149),
 (9, 904),
-(10, 853),
-(11, 490),
-(12, 394),
-(14, 392),
-(15, 593),
-(16, 193),
-(19, 49),
-(20, 94);
+(6, 853),
+(7, 490),
+(8, 394),
+(9, 392);
 
 -- insert medicamentos
 INSERT INTO Medicamento VALUES
@@ -1405,6 +1401,6 @@ insert into receta (idReceta, idConsulta, idMedicamento) values (1, 3, 1);
 insert into receta (idReceta, idConsulta, idMedicamento) values (2, 5, 4);
 insert into receta (idReceta, idConsulta, idMedicamento) values (3, 4, 140);
 insert into receta (idReceta, idConsulta, idMedicamento) values (4, 5, 129);
-insert into receta (idReceta, idConsulta, idMedicamento) values (5, 10, 49);
-insert into receta (idReceta, idConsulta, idMedicamento) values (6, 11, 3);
-insert into receta (idReceta, idConsulta, idMedicamento) values (7, 12, 1);
+insert into receta (idReceta, idConsulta, idMedicamento) values (5, 7, 49);
+insert into receta (idReceta, idConsulta, idMedicamento) values (6, 8, 3);
+insert into receta (idReceta, idConsulta, idMedicamento) values (7, 9, 1);
