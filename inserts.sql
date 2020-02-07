@@ -1,4 +1,4 @@
-use iter3;
+use Equipo2_final;
 -- pacientes
 
 INSERT INTO PACIENTE (idPaciente, FName, Lname, Sexo, Email, Fechanacimiento) VALUES(1, 'Priscila', 'Treviño', 'F', 'pris123@outlook.com', '1960-02-10' );
