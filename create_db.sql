@@ -1,7 +1,6 @@
-drop database iter3;
-CREATE DATABASE iter3;
+CREATE DATABASE Equipo2_final;
 
-USE iter3;
+USE Equipo2_final;
 
 CREATE TABLE Paciente (
 idPaciente INT NOT NULL,
